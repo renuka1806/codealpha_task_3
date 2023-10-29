@@ -1,0 +1,56 @@
+survey.css
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(images/back1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    text-align: center;
+    width:100%;
+    margin: auto;
+    margin-top: 100px;
+}
+#head{
+    font-size: 1.8cm;
+}
+#subheading{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#content1{
+    width: 90%;
+    margin: auto;
+}
+form{
+    background-color: rgba(239, 108, 180, 0.7);
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 80px;
+}
+form.box{
+    width: 98.5%;
+    height: 2.8em;
+    position: relative;
+    bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+#option1 select{
+    width: 98.5%;
+    height: 2.7em;
+    position: relative;
+    bottom: 10px;
+    border-radius: 5px;
+    border: 0;
+
+}
